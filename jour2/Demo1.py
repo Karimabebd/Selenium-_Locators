@@ -1,5 +1,5 @@
 import time
-#on va inporter le pekage nessessaire
+#on va importer le pekage nessessaire
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -24,6 +24,7 @@ print(driver.page_source)
 #-----------por retourne a la page 1 (bois de boulongue)
 driver.back()
 time.sleep(3)
+#-----------por retourne a la page 2
 driver.forward()
 time.sleep(3)
 #---------pour refresh la page
